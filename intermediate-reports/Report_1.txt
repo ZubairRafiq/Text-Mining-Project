@@ -1,0 +1,19 @@
+What has been done? 
+
+- We chose a dataset to work on. We are aware of the dataset structure and know which parts should be extracted and used. 
+- The first version of detection algorithms has been designed. By using a pretrained model online, sentence partitioning was done properly. The retrieved results show that the chosen rhetorical figures are viable to detect through this method. 
+
+
+What will be done?
+
+- Finder algorithms should be improved 
+- Decision tree classifier should be designed. 
+- Input and output format should be exactly defined. Furthermore, data will be adapted to this format.
+
+
+Open questions?
+
+- Dataset is a huge csv file and not compatible to work with this on Git. Although Git Large File Storage handles this issue, it is not a reasonable way in terms of speed(reading the dataset takes more time). There should be a more optimal way. 
+
+- Although the retrieved pre-results for epistrophe and epanaphora seem fine, the one for epanalepsis should be more improved. To do this, synonyms should be computed too besides the word repetitions and it requires to find a pretrained model which is available online. 
+
