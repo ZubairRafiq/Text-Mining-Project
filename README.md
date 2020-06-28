@@ -1,1 +1,1 @@
-##Rhetorical Figure Detection in Political Texts
+## Rhetorical Figure Detection in Political Texts
