@@ -1,0 +1,21 @@
+What has been done? 
+
+
+
+- We changed dataset to the new one with 4210680 words and preprocessed the dataset.
+- Finder algorithms were improved by using different features (e.g. number of consecutive sentences with the same phrase, average length of sentence, strong punctuation) for Anaphora and different features for other figure.
+- Chosen parts of speeches were manually labelled based on intuitive approaches
+
+What will be done?
+
+
+- ML algorithms should be designed with the chosen number of features
+- These algorithms should be unified in a way that should work for all the chosen rhetorical figures
+- Both logistic regression and decision tree should be considered and the final decision should be made.
+
+
+Open questions?
+
+
+- As definition of rhetorical figure differs from a reference to another reference, labellings should be looked through again. 
+-In order to balance positive and negative samples, some rhetorical candidates should be extracted from the input set of ML algorithm.
